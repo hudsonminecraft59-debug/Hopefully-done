@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "verdant",
+  "version": "${version}",
+  "name": "Verdant",
+  "description": "Client-side block highlights (Storage ESP and Spawn Finder) with a forest-green click GUI.",
+  "authors": ["Verdant"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.verdant.VerdantClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
